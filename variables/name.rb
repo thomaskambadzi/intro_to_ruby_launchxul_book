@@ -19,3 +19,6 @@ puts "Your full name is" + " " + name + " " + last_name
 
 # Solution: problem 5
 
+#the first program will output x = 3, this is because inner scope has access to changing the value of variable x
+# and then when puts x is called the new value of x is outputed.
+# and the second will input error because outer scope has no access to the variable x within the block. 
